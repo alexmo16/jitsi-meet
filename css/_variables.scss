@@ -35,7 +35,7 @@ $defaultWarningColor: rgb(215, 121, 118);
  * Toolbar
  */
 $defaultToolbarSize: 50px;
-$newToolbarBackgroundColor: rgba(22, 38, 55, 0.8);
+$newToolbarBackgroundColor: $defaultGreen;
 $newToolbarButtonHoverColor: rgba(255, 255, 255, 0.15);
 $newToolbarButtonToggleColor: rgba(255, 255, 255, 0.2);
 $AOTToolbarButtonHoverColor: rgba(14, 20, 35, 0.6);
@@ -46,20 +46,20 @@ $newToolbarSize: 40px;
 $newToolbarSizeWithPadding: calc(#{$newToolbarSize} + 24px);
 $toolbarTitleFontSize: 19px;
 $overflowMenuBG: initial;
-$overflowMenuItemHoverBG: #313D52;
+$overflowMenuItemHoverBG: $defaultGreen;
 $overflowMenuItemHoverColor: #B8C7E0;
 $overflowMenuItemColor: #B8C7E0;
 
 /**
  * Video layout
  */
-$videoThumbnailHovered: rgba(22, 94, 204, .4);
+$videoThumbnailHovered: $defaultGreen;
 $videoThumbnailSelected: $defaultGreen;
 $participantNameColor: #fff;
 $thumbnailPictogramColor: #fff;
-$dominantSpeakerBg: #165ecc;
+$dominantSpeakerBg: $defaultGreen;
 $raiseHandBg: #D6D61E;
-$audioLevelBg: #44A5FF;
+$audioLevelBg: $defaultGreen;
 $connectionIndicatorBg: #00a759;
 $audioLevelShadow: rgba(9, 36, 77, 0.9);
 $videoStateIndicatorColor: $defaultColor;
@@ -87,10 +87,10 @@ $modalTextColor: #333;
 /**
  * Chat
  */
-$chatHeaderBackgroundColor: rgba(42, 58, 75, 0.9);
+$chatHeaderBackgroundColor: $defaultGreen;
 $chatInputSeparatorColor: #A4B8D1;
-$chatLocalMessageBackgroundColor: rgba(26, 108, 180, 1);
-$chatRemoteMessageBackgroundColor:  rgba(240, 243, 247, 0.15);
+$chatLocalMessageBackgroundColor: #cecece;
+$chatRemoteMessageBackgroundColor: white;
 $sidebarWidth: 375px;
 
  /**

@@ -14,7 +14,7 @@ $sliderThumbBackground: #3572b0;
 /**
 * Buttons
 */
-$buttonBackground: #44A5FF;
+$buttonBackground: #00a759;
 $buttonHoverBackground: #2c4062;
 $buttonBorder: transparent;
 $buttonHoverBorder: transparent;
@@ -28,8 +28,8 @@ $buttonLightHoverBorder: #999;
 $buttonLinkBackground: transparent;
 $buttonLinkColor: #0090e8;
 
-$primaryButtonBackground: #3572b0;
-$primaryButtonHoverBackground: #2a67a5;
+$primaryButtonBackground: #00a759;
+$primaryButtonHoverBackground: #00a759;
 $primaryButtonColor: $baseLight;
 $primaryButtonFontWeight: 400;
 
@@ -42,15 +42,15 @@ $overlayButtonBg: #0074E0;
 **/
 $defaultBackground: #d1d1d1;
 $filmstripOnlyOverlayBg: #000;
-$reloadProgressBarBg: #0074E0;
+$reloadProgressBarBg: #00a759;
 
 /**
  * Dialog colors
  **/
 $auiDialogColor: #eceef1;
-$auiDialogBg: #253858;
-$auiDialogContentBg: #344563;
-$auiBorderColor: #253858;
+$auiDialogBg: #00a759;
+$auiDialogContentBg: #00a759;
+$auiBorderColor: #d1d1d1;
 $dialogTitleFontWeight: 400;
 $dialogErrorText: #344563;
 
@@ -65,7 +65,7 @@ $inlayFilmstripOnlyColor: #d1d1d1;
 $inlayFilmstripOnlyBg: #fff;
 
 // Main controls
-$placeHolderColor: #a7a7a7;
+$placeHolderColor: white;
 $readOnlyInputColor: #a7a7a7;
 $defaultDarkSelectionColor: #ccc;
 $buttonFontWeight: 400;

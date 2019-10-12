@@ -58,7 +58,7 @@
     }
 
     &::-webkit-scrollbar {
-        background: #06a5df;
+        background: $defaultGreen;
         width: 7px;
     }
 
@@ -75,7 +75,7 @@
     }
 
     &::-webkit-scrollbar-thumb {
-        background: #06a5df;
+        background: $defaultGreen;
         border-radius: 4px;
     }
 }
@@ -193,7 +193,7 @@
     background-color: $chatRemoteMessageBackgroundColor;
     border-radius: 0px 6px 6px 6px;
     box-sizing: border-box;
-    color: white;
+    color: black;
     margin-top: 3px;
     max-width: 100%;
     padding-bottom: 3px;
@@ -356,7 +356,6 @@
         border-radius: 0px 6px 6px 6px;
         display: inline-block;
         margin-top: 3px;
-        color: white;
         padding: 8px;
     }
 }
