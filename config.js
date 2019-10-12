@@ -16,7 +16,7 @@ var config = {
 
     hosts: {
         // XMPP domain.
-        domain: '192.168.0.100',
+        domain: 'localhost',
 
         // When using authentication, domain for guest users.
         // anonymousdomain: 'guest.example.com',
@@ -34,11 +34,11 @@ var config = {
         // focus: 'focus.jitsi-meet.example.com',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.192.168.0.100'
+        muc: 'conference.localhost'
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: 'https://192.168.0.100/http-bind',
+    bosh: 'https://localhost/http-bind',
 
     // The name of client node advertised in XEP-0115 'c' stanza
     clientNode: 'http://jitsi.org/jitsimeet',

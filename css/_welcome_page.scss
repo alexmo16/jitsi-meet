@@ -20,11 +20,11 @@ body.welcome-page {
         overflow: hidden;
         position: relative;
         text-align: center;
+        margin-top: 30px;
 
         .header-text {
             display: flex;
             flex-direction: column;
-            margin-top: $watermarkHeight + 35;
             margin-bottom: 35px;
             max-width: calc(100% - 40px);
             width: 650px;
@@ -93,12 +93,12 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #d1d1d1;
             display: flex;
             flex-direction: column;
 
             .tab-content{
-                margin: 5px 0px;
+                margin: 5px 10px;
                 overflow: hidden;
                 flex-grow: 1;
                 position: relative;
@@ -141,7 +141,7 @@ body.welcome-page {
         width: 51px;
         height: 35px;
         font-size: 14px;
-        background: #0074E0;
+        background: $defaultGreen;
         border-radius: 4px;
         color: #FFFFFF;
         text-align: center;
