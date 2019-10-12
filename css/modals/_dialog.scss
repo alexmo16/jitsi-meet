@@ -14,7 +14,7 @@
 
         &-dialog2 {
             &-header, &-footer {
-                background-color: $auiDialogBg;
+                background-color: $defaultGreen;
                 border: none;
             }
 
@@ -64,7 +64,7 @@
             }
 
             &-content {
-                background-color: $auiDialogBg;
+                background-color: $defaultGreen;
                 box-sizing: border-box;
                 color: $auiDialogColor;
                 font-size: em(14, 12);
@@ -94,7 +94,7 @@
     }
 
     .input-control {
-        background-color: $auiDialogContentBg;
+        background-color: $defaultGreen;
         color: $auiDialogColor;
     }
 
