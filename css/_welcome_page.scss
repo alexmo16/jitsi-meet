@@ -22,6 +22,13 @@ body.welcome-page {
         text-align: center;
         margin-top: 30px;
 
+        .header-image {
+            * {
+                width: 45px;
+                height: 45px;
+            }
+        }
+
         .header-text {
             display: flex;
             flex-direction: column;
@@ -33,7 +40,7 @@ body.welcome-page {
 
         .header-text-title {
             color: $welcomePageTitleColor;
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             font-weight: 500;
             line-height: 1.18;
             margin-bottom: 16px;

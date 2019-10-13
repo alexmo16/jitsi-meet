@@ -167,11 +167,25 @@
 
 #nickname {
     text-align: center;
-    color: #9d9d9d;
+    color: white;
     font-size: 18px;
     margin-top: 30px;
     left: 5px;
     right: 5px;
+
+    * {
+        padding: 0 !important;
+        border-color: black !important;
+    }
+
+    #nickinput {     
+        background-color: white;
+        height: 100%;
+        color: black;
+        ::placeholder {
+            color: #928e8e;
+        }
+    }
 }
 
 .sideToolbarContainer {
