@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  color: #2980b9;
+  color: $defaultDarkGreen;
   text-align: center;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -121,7 +121,7 @@
 .context-menu-item.context-menu-hover {
   color: #fff;
   cursor: pointer; 
-  background-color: #2980b9;
+  background-color: $defaultDarkGreen;
 }
 
 .context-menu-item.context-menu-disabled {

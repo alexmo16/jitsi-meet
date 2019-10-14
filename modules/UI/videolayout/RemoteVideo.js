@@ -185,7 +185,7 @@ RemoteVideo.prototype._generatePopupContent = function() {
     ReactDOM.render(
         <Provider store = { APP.store }>
             <I18nextProvider i18n = { i18next }>
-                <AtlasKitThemeProvider mode = 'dark'>
+                <AtlasKitThemeProvider>
                     <RemoteVideoMenuTriggerButton
                         initialVolumeValue = { initialVolumeValue }
                         isAudioMuted = { this.isAudioMuted }

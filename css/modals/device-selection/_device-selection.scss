@@ -20,7 +20,6 @@
 
         /* device-selector-trigger stylings attempt to mimic AtlasKit button */
         .device-selector-trigger {
-            background-color: #0E1624;
             border: 1px solid #455166;
             border-radius: 5px;
             display: flex;
@@ -103,7 +102,7 @@
         font-size: 14px;
 
         a {
-            color: #2684FF;
+            color: $defaultGreen;
             cursor: pointer;
             text-decoration: none;
         }
@@ -119,7 +118,7 @@
         height: 8px;
 
         .audio-input-preview-level {
-            background: #4C9AFF;
+            background: $defaultGreen;
             border-radius: 5px;
             height: 100%;
             -webkit-transition: width .1s ease-in-out;

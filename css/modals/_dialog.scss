@@ -94,8 +94,12 @@
     }
 
     .input-control {
-        background-color: $defaultGreen;
-        color: $auiDialogColor;
+        background-color: white;
+        color: black;
+    }
+
+    .input-control::placeholder {
+        color: rgb(81, 80, 80);
     }
 
     .form-control:not(:last-child) {
@@ -142,4 +146,8 @@
         display: block;
         margin: 16px auto 0 auto;
     }
+}
+
+#modal-dialog-ok-button {
+    background-color: $defaultGreen !important;
 }

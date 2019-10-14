@@ -850,7 +850,7 @@ SmallVideo.prototype.updateIndicators = function() {
         <Provider store = { APP.store }>
             <I18nextProvider i18n = { i18next }>
                 <div>
-                    <AtlasKitThemeProvider mode = 'dark'>
+                    <AtlasKitThemeProvider>
                         { this._showConnectionIndicator
                             ? <ConnectionIndicator
                                 alwaysVisible = { showConnectionIndicator }

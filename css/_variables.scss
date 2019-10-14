@@ -26,6 +26,7 @@ $filmstripToggleButtonWidth: 17px;
  */
 $defaultColor: #F1F1F1;
 $defaultGreen: #00a759;
+$defaultDarkGreen:#00502b;
 $defaultSideBarFontColor: $defaultGreen;
 $defaultSemiDarkColor: #ACACAC;
 $defaultDarkColor: rgb(1, 119, 64);
@@ -47,8 +48,8 @@ $newToolbarSizeWithPadding: calc(#{$newToolbarSize} + 24px);
 $toolbarTitleFontSize: 19px;
 $overflowMenuBG: initial;
 $overflowMenuItemHoverBG: $defaultGreen;
-$overflowMenuItemHoverColor: #B8C7E0;
-$overflowMenuItemColor: #B8C7E0;
+$overflowMenuItemHoverColor: white;
+$overflowMenuItemColor: $defaultDarkGreen;
 
 /**
  * Video layout

@@ -42,7 +42,8 @@ div.jqi .jqititle{
 div.jqi .jqimessage{ 
 	padding: 10px; 
 	line-height: 20px; 
-	color: #444444; 
+	color: #444444;
+	background-color: $defaultGreen; 
 }
 div.jqi .jqibuttons{ 
 	text-align: right; 
@@ -65,7 +66,7 @@ div.jqi .jqibuttons button{
 	font-size: 12px; 
 }
 div.jqi .jqibuttons button.jqidefaultbutton{
-	color: #489afe;
+	color: $defaultDarkGreen;
 }
 
 div.jqi .jqibuttons button:disabled {
@@ -73,7 +74,7 @@ div.jqi .jqibuttons button:disabled {
 }
 div.jqi .jqibuttons button:hover,
 div.jqi .jqibuttons button:focus{
-	color: #287ade;
+	color: $defaultDarkGreen;
 	outline: none;
 }
 .jqiwarning .jqi .jqibuttons{ 
