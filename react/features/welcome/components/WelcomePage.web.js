@@ -120,7 +120,7 @@ class WelcomePage extends AbstractWelcomePage {
                     ? 'with-content' : 'without-content'}` }
                 id = 'welcome_page'>
                 <div className = 'welcome-watermark'>
-                    <Watermarks />
+                    <Watermarks isWhite = { true } />
                 </div>
                 <div className = 'header'>
                     <div className = 'welcome-page-settings'>

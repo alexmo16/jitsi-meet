@@ -27,6 +27,11 @@ type Props = {
     _isGuest: boolean,
 
     /**
+     * If the watermark logo is white or not.
+     */
+    isWhite: boolean,
+
+    /**
      * Invoked to obtain translated strings.
      */
     t: Function
@@ -177,7 +182,12 @@ class Watermarks extends Component<Props, State> {
         if (this.state.showJitsiWatermark
                 || (this.props._isGuest
                     && this.state.showJitsiWatermarkForGuests)) {
-            reactElement = <div className = 'watermark leftwatermark' />;
+
+            if (this.props.isWhite) {
+                reactElement = <div className = 'watermark leftwatermarkWhite' />;
+            } else {
+                reactElement = <div className = 'watermark leftwatermark' />;
+            }
 
             const { jitsiWatermarkLink } = this.state;
 
