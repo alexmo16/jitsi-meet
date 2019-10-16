@@ -88,7 +88,8 @@ $modalTextColor: #333;
 /**
  * Chat
  */
-$chatHeaderBackgroundColor: $defaultGreen;
+$chatHeaderBackgroundColor: rgba(0, 167, 89, 0.9);
+$chatBackgroundColor: rgba(0, 167, 89, 0.8);
 $chatInputSeparatorColor: #A4B8D1;
 $chatLocalMessageBackgroundColor: #cecece;
 $chatRemoteMessageBackgroundColor: white;
