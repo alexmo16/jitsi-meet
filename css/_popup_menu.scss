@@ -12,6 +12,16 @@
     &__item {
         list-style-type: none;
         height: 35px;
+
+        .jitsi-icon svg {
+            fill: $defaultDarkGreen;
+        }
+    }
+
+    &__item:hover {
+        .jitsi-icon svg {
+            fill: $popupMenuHoverColor;
+        }
     }
 
     // Link Appearance
