@@ -11,6 +11,12 @@
 {
     @extend %connection-info;
 
+    color: $defaultDarkGreen !important;
+
+    * {
+        color: $defaultDarkGreen !important;
+    }
+
     /**
      * Apply negative margin to reduce the appearance of padding in AtlasKit
      * InlineDialog.
